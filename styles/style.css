@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(to right, rgb(241, 90, 115), cyan, magenta);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+}
+
+.container {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 45px auto;
+    max-width: 900px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: cyan;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    color: cyan;
+    border-bottom: 4px solid rgb(241, 66, 154);
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.25;
+    color: white;
+}
+
+.image-box {
+    text-align: center;
+    margin: 40px 0;
+}
+
+img {
+    width: 550px;
+    object-fit: cover;
+    border-radius: 35%;
+    border: 2px solid cyan;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 30px;
+    color: white;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: blueviolet;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    transition-delay: 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline magenta;
+}
